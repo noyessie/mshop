@@ -1,8 +1,8 @@
 <?php
-define('_DB_SERVER_', 'localhost');
+define('_DB_SERVER_', 'localhost');//192.168.8.100
 define('_DB_NAME_', 'mshop');
-define('_DB_USER_', 'dev');
-define('_DB_PASSWD_', '');
+define('_DB_USER_', 'dev');//remote_dev
+define('_DB_PASSWD_', '');//dev
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');

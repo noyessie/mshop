@@ -43,7 +43,8 @@ class GestionFournisseur extends Module
   			!parent::install() ||
     		!$this->registerHook('displayHeader') ||
     		!$this->registerHook('displayNav') ||
-        !Configuration::updateValue('PROFILE', 'Fournisseur')
+        !Configuration::updateValue('PROFILE', 'Fournisseur')||
+        !Configuration::updateValue('ADMIN_EMAIL' , 'hubertnoyessie@gmail.com')
   		)
     	return false;
   	return true;
@@ -64,13 +65,17 @@ class GestionFournisseur extends Module
       if (Tools::isSubmit('submit'.$this->name))
       {
           $my_module_name = strval(Tools::getValue('PROFILE'));
+          $admin_email = strval(Tools::getValue('ADMIN_EMAIL'));
           if (!$my_module_name
             || empty($my_module_name)
-            || !Validate::isGenericName($my_module_name))
+            || !Validate::isGenericName($my_module_name)
+            || !Validata::isEmail($admin_email))
               $output .= $this->displayError($this->l('Valeur invalide'));
           else
           {
               Configuration::updateValue('PROFILE', $my_module_name);
+              Configuration::updateValue('ADMIN_EMAIL', $admin_email);
+              
               $output .= $this->displayConfirmation($this->l('Paramètres mis à jour'));
           }
       }
@@ -91,6 +96,15 @@ class GestionFournisseur extends Module
                 'type' => 'text',
                 'label' => $this->l('Configuration value'),
                 'name' => 'PROFILE',
+                'size' => 20,
+                'required' => true
+            )
+        ),
+        'input' => array(
+            array(
+                'type' => 'text',
+                'label' => "Admin Email",
+                'name' => 'ADMIN_EMAIL',
                 'size' => 20,
                 'required' => true
             )
@@ -133,6 +147,7 @@ class GestionFournisseur extends Module
      
     // Load current value
     $helper->fields_value['PROFILE'] = Configuration::get('PROFILE');
+    $helper->fields_value['ADMIN_EMAIL'] = Configuration::get('ADMIN_EMAIL');
      
     return $helper->generateForm($fields_form);
   }

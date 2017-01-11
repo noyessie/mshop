@@ -1,5 +1,3 @@
-Votre demander a été pris en compte.
+<div class="alert alert-info"><h1>Votre demander a été pris en compte.
 L'un de nos administrateur etudie votre compte.
-
-Enregistrement Réussi. Bien vouloir vous connecter <a href="{$admin_dir}">ici</a>
-
+</h1></div>

@@ -91,28 +91,10 @@ class gestionfournisseursaveModuleFrontController extends ModuleFrontController
     $employee->passwd = md5(_COOKIE_KEY_.$employee->passwd);
     
     
-    $templateVars['{firstname}'] = $employee->firstname;
-    $templateVars['{lastname}'] = $employee->lastname;
-    //$templateVars['{src_img}'] = _PS_BASE_URL_.__PS_BASE_URI__.'img/logo.jpg'; //Image to be displayed in the message 
+     
  
+    $this->sendMail($employee);
     
-    $id_land = Language::getIdByIso('en'); 	//Set the English mail template
-	//$template_name = 'template'; //Specify the template file name
-	/*$title = Mail::l('Test Mail'); //Mail subject with translation
-	$from = Configuration::get('PS_SHOP_EMAIL');   //Sender's email
-	$fromName = Configuration::get('PS_SHOP_NAME'); //Sender's name
-	$mailDir = dirname(__FILE__).'/mails/'; //Directory with message templates
-	$toName = $employee->firstname.' '.$employee->lastname; //Customer name
- 
-	//$fileAttachment['content'] = file_get_contents(_PS_BASE_URL_.__PS_BASE_URI__.'download/fb.zip'); //File path
-	//$fileAttachment['name'] = 'fileAttachment'; //Attachment filename
-	//$fileAttachment['mime'] = 'application/zip'; //mime file type
- */
-    $sujet = 'Bonjour';
-    $destinataire = $employee->email;
-    $employees = Employee::getEmployees();
-    d($employees);
-    Mail::Send($id_land, 'montemplate', $sujet , $templateVars, $destinataire, NULL, NULL, NULL, NULL, NULL, 'mails/');
     //$employee->add();
     //dump("added employee");
     //dump($employee);
@@ -123,6 +105,43 @@ class gestionfournisseursaveModuleFrontController extends ModuleFrontController
           )
       );
     
+    }
+
+
+    public function sendMail($fournisseur){
+      //on récupère la liste des admins
+      $employees = Employee::getEmployeesByProfile(1);
+      $id_land = Language::getIdByIso('en');  //Set the English mail template
+      //$template_name = 'template'; //Specify the template file name
+      /*$title = Mail::l('Test Mail'); //Mail subject with translation
+      $from = Configuration::get('PS_SHOP_EMAIL');   //Sender's email
+      $fromName = Configuration::get('PS_SHOP_NAME'); //Sender's name
+      $mailDir = dirname(__FILE__).'/mails/'; //Directory with message templates
+      $toName = $employee->firstname.' '.$employee->lastname; //Customer name
+     
+      //$fileAttachment['content'] = file_get_contents(_PS_BASE_URL_.__PS_BASE_URI__.'download/fb.zip'); //File path
+      //$fileAttachment['name'] = 'fileAttachment'; //Attachment filename
+      //$fileAttachment['mime'] = 'application/zip'; //mime file type
+     */
+      //d($fournisseur);
+      $templateVars = array();
+     $templateVars['{firstname}'] = $fournisseur->firstname;
+     $templateVars['{lastname}'] = $fournisseur->lastname;
+     $templateVars['{email}'] = $fournisseur->email;
+     
+   //d($fournisseur->firstname);
+   // d($fournisseur['lastname']);
+    //$templateVars['{src_img}'] = _PS_BASE_URL_.__PS_BASE_URI__.'img/logo.jpg'; //Image to be displayed in the message
+    $sujet = 'Un nouveau compte fournisseur a activer';
+    //$destinataire = array();
+    foreach($employees as $employee){
+      //$destinataire[] = $employee['email'];
+      $templateVars['{firstnameAdm}'] = $employee['firstname'];
+      $templateVars['{lastnameAdm}'] = $employee['lastname'];
+      Mail::Send($id_land, 'montemplate', $sujet , $templateVars, $employee['email'], NULL, NULL, NULL, NULL, NULL, 'mails/');
+    
+    }
+
     }
 
 }

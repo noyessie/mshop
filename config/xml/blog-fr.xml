@@ -13,12 +13,46 @@
 	<atom:link href="http://www.prestashop.com/blog/fr/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/fr</link>
 	<description></description>
-	<lastBuildDate>Tue, 20 Dec 2016 10:32:19 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 21 Dec 2016 08:00:30 +0000</lastBuildDate>
 	<language>fr-FR</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>PrestaShop 1.7 : contribuez aux traductions du logiciel</title>
+		<link>https://www.prestashop.com/blog/fr/prestashop-1-7-contribuez-aux-traductions-du-logiciel/</link>
+		<comments>https://www.prestashop.com/blog/fr/prestashop-1-7-contribuez-aux-traductions-du-logiciel/#comments</comments>
+		<pubDate>Wed, 21 Dec 2016 08:00:30 +0000</pubDate>
+		<dc:creator><![CDATA[Alexandra Even]]></dc:creator>
+				<category><![CDATA[Actualités PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=20951</guid>
+		<description><![CDATA[<p>Open-source et gratuit, PrestaShop doit beaucoup à sa communauté qui contribue chaque jour à son amélioration. Modification du code source, retours sur la Forge, création de modules, ou encore participation à des tests utilisateurs: les façons de contribuer sont nombreuses. Plus discrètes, l’implication de la communauté sur le projet de traduction de PrestaShop a néanmoins [...]</p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/prestashop-1-7-contribuez-aux-traductions-du-logiciel/">PrestaShop 1.7 : contribuez aux traductions du logiciel</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Open-source et gratuit, PrestaShop doit beaucoup à sa communauté qui contribue chaque jour à son amélioration. Modification du <a href="https://github.com/PrestaShop/PrestaShop" target="_blank">code source</a>, retours sur <a href="http://forge.prestashop.com/" target="_blank">la Forge</a>, création de <a href="http://addons.prestashop.com/en/" target="_blank">modules</a>, ou encore participation à des tests utilisateurs: les façons de contribuer sont nombreuses. Plus discrètes, l’implication de la communauté sur le <a href="https://crowdin.com/project/prestashop-official" target="_blank">projet de traduction de PrestaShop</a> a néanmoins permis de rendre le logiciel disponible dans près de 65 langues, offrant aux marchands du monde entier la possibilité de lancer leur boutique gratuitement, et dans leur propre langue.<span id="more-20951"></span></p>
+<p>Avec l’arrivée de la <a href="https://www.prestashop.com/1.7" target="_blank">version 1.7</a> et ses nouveautés, de nouveaux contenus ont été rendus disponibles à la traduction. Plus que jamais, la mobilisation de la communauté est essentielle.</p>
+<h2 style="color:#251b5b;">Traduire PrestaShop</h2>
+<p>Notre projet de traduction permet de traduire tout le logiciel PrestaShop en plus de 80 langues. Dans un esprit tout à fait open source, quiconque veut aider y est le bienvenu. Certaines langues sont en cours de traduction, d’autres sont déjà finies (mais des améliorations peuvent toujours être apportées), tandis que certaines langues sont encore balbutiantes.</p>
+<p>Vous aussi souhaitez rejoindre la communauté de traducteurs ? C’est très simple :</p>
+<ul>
+<li>Créez un compte sur <a href="https://crowdin.com/project/prestashop-official" target="_blank">Crowdin</a>.</li>
+<li>Faites une demande pour accéder au projet de la langue dans laquelle vous souhaitez traduire PrestaShop.</li>
+<li>Participez à la traduction du logiciel, depuis l’anglais.</li>
+</ul>
+<p>Vous trouverez plus d’informations directement sur <a href="https://crowdin.com/project/prestashop-official" target="_blank">la page de notre projet de traduction</a> (en anglais).<br />
+<img src="https://www.prestashop.com/blog/fr/files/2016/12/translator.jpg" alt="PrestaShop 1.7 : contribuez aux traductions du logiciel " width="339" height="285" class="aligncenter size-full wp-image-20952" /></p>
+<h2 style="color:#251b5b;">Remercier la communauté de traducteurs</h2>
+<p>Depuis le lancement du projet de traduction sur Crowdin en 2014, <strong>plus de 1100 traducteurs ont traduit près de 3 millions de mots dans 72 langues</strong>, c’est énorme !</p>
+<p>Pour mettre en avant le travail des traducteurs et les remercier, nous avons récemment mis en ligne un site à leur honneur. Vous y découvrirez les plus gros contributeurs en traduction depuis le lancement de la 1.7, et vous pourrez suivre l’avancement des langues en cours de traduction :</p>
+<div class="text-center"><a class="btn" style="background-color: #df0067;border: 1px solid #df0067;border-bottom: 3px solid #df0067;margin: 10px 0 20px;color: #fff" href="http://translators.prestashop.com/" target="_blank">Rencontrez les traducteurs de PrestaShop</a></div>
+<p>Si vous souhaitez participer à la traduction de PrestaShop et voulez en savoir plus, vous pouvez consulter le <a href="http://build.prestashop.com/assets/ext/PrestaShop_Translator_Guide.pdf" target="_blank">guide du traducteur</a> (en anglais), ou bien nous contacter à l’adresse <a href="mailto:translation@prestashop.com">translation@prestashop.com</a> <img src="https://www.prestashop.com/blog/fr/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/prestashop-1-7-contribuez-aux-traductions-du-logiciel/">PrestaShop 1.7 : contribuez aux traductions du logiciel</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/fr/prestashop-1-7-contribuez-aux-traductions-du-logiciel/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Comment devenir leader de son marché de niche ? Interview de Skylantern</title>
 		<link>https://www.prestashop.com/blog/fr/comment-devenir-leader-marche-niche-interview-skylantern/</link>
 		<comments>https://www.prestashop.com/blog/fr/comment-devenir-leader-marche-niche-interview-skylantern/#comments</comments>
@@ -360,61 +394,6 @@ Nous avons interrogé notre club utilisateurs et avons visité des dizaines de m
 <p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/7-astuces-vraiment-utiles-faire-reclamations-experience-client-exceptionnelle/">7 astuces vraiment utiles pour faire des réclamations une expérience client exceptionnelle</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/fr/7-astuces-vraiment-utiles-faire-reclamations-experience-client-exceptionnelle/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>L’Arrondi en ligne : fidéliser ses clients en soutenant de grandes causes</title>
-		<link>https://www.prestashop.com/blog/fr/larrondi-en-ligne-fideliser-ses-clients-en-soutenant-grandes-causes/</link>
-		<comments>https://www.prestashop.com/blog/fr/larrondi-en-ligne-fideliser-ses-clients-en-soutenant-grandes-causes/#comments</comments>
-		<pubDate>Thu, 01 Dec 2016 17:13:35 +0000</pubDate>
-		<dc:creator><![CDATA[Les amis de Preston]]></dc:creator>
-				<category><![CDATA[Conseils E-commerce]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/fr/?p=20849</guid>
-		<description><![CDATA[<p>L’Arrondi en ligne : un outil de satisfaction et de fidélisation client Le paiement est le dernier contact avec vos clients sur votre site e-commerce. C’est un moment délicat où l’acheteur pense avant tout à la sécurité de sa transaction. Il s’agit également du dernier sentiment qu’emporte un client avec lui en quittant votre boutique [...]</p>
-<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/larrondi-en-ligne-fideliser-ses-clients-en-soutenant-grandes-causes/">L’Arrondi en ligne : fidéliser ses clients en soutenant de grandes causes</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p><strong>L’Arrondi en ligne : un outil de satisfaction et de fidélisation client<br />
-</strong></p>
-<p>Le paiement est le dernier contact avec vos clients sur votre site e-commerce. C’est un moment délicat où l’acheteur pense avant tout à la sécurité de sa transaction. Il s’agit également du dernier sentiment qu’emporte un client avec lui en quittant votre boutique ; le meilleur moment pour donner une valeur supplémentaire aux achats en ligne de vos clients.<br />
-<span id="more-20849"></span><br />
-Proposer à vos clients d’Arrondir leurs achats au profit d’associations soutenues par votre enseigne directement sur votre page de paiement s’avère très gratifiant pour votre site e-commerce tout autant que pour les acheteurs.</p>
-<p>Cette simple proposition, vous permet aussi d’améliorer votre image de marque en associant votre enseigne à des associations d’utilité publique en mettant votre engagement en avant sur votre site internet.</p>
-<p>Fédérer vos clients autour de projets porteurs de sens et de vos valeurs. </p>
-<p><strong>Quel est le principe de l’Arrondi en ligne ?<br />
-</strong></p>
-<p>Le principe est le même en caisse que lors d’un achat en ligne. </p>
-<p>Vous choisissez en amont auprès de quelles associations il sera possible pour vos clients d’Arrondir leurs achats.<br />
-Après avoir rempli son panier, le client passe en caisse. </p>
-<p>Lors du paiement en carte bancaire, l’opérateur de paiement proposera directement à vos clients depuis le terminal de paiement ou sur une page de paiement en ligne, d’Arrondir  leur achat à l’€ supérieur au profit d’une bonne cause.</p>
-<p>100 % de ce don revient à l’association.</p>
-<p><strong>Quel est l’intérêt pour ma boutique en ligne :<br />
-</strong></p>
-<p><strong>-	Engagement client<br />
-</strong><br />
-Fidéliser en donnant du sens à l’acte d’achat. Donner le sentiment à vos clients que leur petit geste participe à une grande cause dont ils sont les acteurs. Chacun choisit le montant de son Arrondi. Chacun participe selon ses moyens.<br />
-<strong>-	Image<br />
-</strong><br />
-Rendre votre engagement visible et concret sur tout votre site e-commerce en vous associant à  l’image des associations que vous choisirez de soutenir. Vous pourrez aussi intégrer à vos supports de communication les causes que vous soutenez.<br />
-<strong>-	Impact Social<br />
-</strong><br />
-Faire de votre site e-commerce un lieu de vie et de solidarité. Devenez l’ambassadeur des associations préférées de vos clients!</p>
-<p><strong>Un concept d’ores et déjà adopté par la grande distribution<br />
-</strong></p>
-<p>L’Arrondi est proposé dans des centaines de magasins partout en France au profit de dizaines d’associations parmi lesquelles Géant Casino, Casino, Franprix, Adidas, Sephora, Bonobo Jeans, Biocoop ou encore Nature &amp; Découvertes. Ils proposent tous à leurs clients en caisse l’Arrondi au profit d’associations en accord avec les valeurs de leur marque.<br />
-Ils mettent ainsi leurs engagements en avant dans leur magasin, visibles de tous et permettent aux clients qui le souhaitent de participer.</p>
-<p>En 2016 en France, 3 000 000 d’Arrondis ont été réalisés pour plus de 350 associations.<br />
-Les opérateurs de paiement Français qui le permettent sont Ingenico, leader mondial des terminaux de paiement physique ; et PayGreen, spécialiste des paiements en ligne depuis 2010 et seul opérateur labellisé Entreprise Solidaire d’Utilité Sociale.</p>
-<p><strong>A l’étranger, l’Arrondi fait partie du quotidien<br />
-</strong></p>
-<p>A l’étranger le concept rencontre déjà depuis plusieurs années un vif succès : au Mexique, l’Arrondi représente près de 100 millions de pesos récoltés chaque année ; en Angleterre 1 million de £ sont récoltés avec 4 millions de demandes d’Arrondi par an. Plus récemment en Allemagne le dispositif qui a été lancé en 2012 dans 15 enseignes et 12000 points de vente a fait l’objet de 18 millions de demandes d’Arrondi.</p>
-<p><strong>Téléchargez dès maintenant le <a href="http://addons.prestashop.com/fr/19176-paygreen-solution-de-paiement.html">Module PayGreen</a><br />
-</strong></p>
-<p>A propos de PayGreen :<br />
-Référence du paiement en ligne depuis 2010, PayGreen est une société française spécialiste du paiement pour PME et Grandes Enseignes. Plus de 1000 boutiques en gestion sont gérées par un support commercial et technique totalement internalisé. Entreprise Solidaire et Sociale depuis 2013, PayGreen assure que 100 % des dons sont reversés aux associations par l’intermédiaire du Fonds De Dotation le Reflexe Solidaire dont PayGreen est membre du conseil d’administration depuis 2016.</p>
-<p>Cet article <a rel="nofollow" href="https://www.prestashop.com/blog/fr/larrondi-en-ligne-fideliser-ses-clients-en-soutenant-grandes-causes/">L’Arrondi en ligne : fidéliser ses clients en soutenant de grandes causes</a> est apparu en premier sur <a rel="nofollow" href="https://www.prestashop.com/blog/fr">FR - Blog ecommerce par PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/fr/larrondi-en-ligne-fideliser-ses-clients-en-soutenant-grandes-causes/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>
